@@ -1,2 +1,4 @@
-console.log("Hi from HI")
-console.log("another line")
+import { Canvas } from "./Widget";
+
+const canvas = new Canvas(document.body);
+console.log(canvas);
